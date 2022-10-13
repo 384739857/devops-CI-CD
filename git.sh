@@ -4,7 +4,7 @@ set -e
 # git log | grep "^Author: " | awk '{print $2}'
 # git log | grep "^Author: " | awk '{print $2}' | sort | uniq
 # { printf "added lines: %s, removed lines: %s, total lines: %s, total of intersections lines: %s\n", add, subs, total, loc }' -; done
-usernamelist="admin liaoliaojun Mat Deeper 张浩田 shaoyantang mayanyun renyunfei wuyongfeng shujing.sun shiwen m18721244171@163.com"
+usernamelist="admin zhangsan lisi wangwu"
 
 contributors=$(git log --since=2021-01-01 --until=2022-01-11 | grep "^Author: " | awk '{print $2}' | sort | uniq)
 
