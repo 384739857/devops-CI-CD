@@ -13,10 +13,10 @@
 
 ## service name 对应
 
-| 服务                | host_name |    内网端口号| 在公司链接调试用port | 
+| 服务                | host_name |    内网端口号|  port | 
 | --- | --- | --- | ---|
 | redis             |  redis.default               |默认| 32701 |
-| mysql             |  mysql.default               |默认| 32700 root/P@ssw0rd jinxin/jinxin |
+| mysql             |  mysql.default               |默认| 32700|
 | orientdb          |  orientdb.default            |默认| 32702,32703 |
 | elasticsearch     |  elasticsearch.default       |默认| 32704,32705 |
 | rocketmq          |  rocketmq.default            |默认| 无 |
@@ -25,10 +25,10 @@
 | ambry             |  ambry-client.default        |1174| 32708  |
 | zookeeper          | commons-zookeeper.default   |2181|30002|
 | kafka                |commons-kafka.default       |9092|30003|
-| flink             |http://10.1.1.176:30001        |8081|30001 |
-| kafka-manager        |http://10.1.1.176:30004     |9000|30004|
-| zookeeper ui        |http://10.1.1.176:30005      |9090|30005  admin/manager|       
-| drools ui         |http://10.1.1.176:31001/business-central|8080|31001 admin/admin|
+| flink             |http://xx.xx.xx.176:30001        |8081|30001 |
+| kafka-manager        |http://xx.xx.xx.176:30004     |9000|30004|
+| zookeeper ui        |http://xx.xx.xx.176:30005      |9090|30005|       
+| drools ui         |http://xx.xx.xx.176:31001/business-central|8080|31001|
 | drools ssh         |                              |8001|31002|
 
 
@@ -61,12 +61,11 @@
 | mds-all-frontier  | 1  | 2 |
 | auth-server       | 1  | 2 |
  
-* redis db1 为 `mds-all-frontier` 和　`auth-server` 的demo库
-* redis db2 为 `mds-all-frontier` 和　`auth-server` 的demo库
+
 
 ## mysql
 
-库名以_dev _demo区分 帐号为 `jinxin/jinxin`
+库名以_dev _demo区分 帐号为 `xxx/xxx`
 
 | demo mysql | dev mysql | 
 | --- | --- |
@@ -92,11 +91,11 @@
 
 ### 可通过浏览器访问的一些页面，需要自行修改host
 - Dev 环境
-    * 10.1.1.176 eureka.dev.jinxin.cloud
-    * 10.1.1.176 mds.dev.jinxin.cloud
+    * xx.xx.xx.176 eureka.dev.xxx.cloud
+    * xx.xx.xx.176 mds.dev.xxx.cloud
 - Demo环境
-    * 10.1.1.176 mds.demo.jinxin.cloud
-    * 10.1.1.176 eureka.demo.jinxin.cloud
+    * xx.xx.xx.176 mds.demo.xxx.cloud
+    * xx.xx.xx.176 eureka.demo.xxx.cloud
 
 
 ### mysql审计插件安装步骤
