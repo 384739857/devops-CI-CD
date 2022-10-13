@@ -32,26 +32,8 @@
 | drools ssh         |                              |8001|31002|
 
 
-| demo host name| dev host name |
-| --- | --- | 
-| mds-all-frontier.demo | mds-all-frontier.dev |
-| auth-frontier.demo    | auth-frontier.dev |
-| auth-frontier.demo    | auth-frontier.dev |
-| auth-service.demo     | auth-service.dev |
-| dqs-service.demo      | dqs-service.dev |
-| ds-service.demo       | ds-service.dev |
-| eureka-service.demo   | eureka-service.dev |
-| idcenter-service.demo | idcenter-service.dev |
-| mds-service.demo      | mds-service.dev |
-| tag-service.demo      | tag-service.dev |
-| uc-service.demo       | uc-service.dev |
-| workflow-service.demo | workflow-service.dev | 
-| dlc-service.demo      | dlc-service.dev | 
-| d4a-service.demo      | d4a-service.dev | 
 
 * Java服务务端口均为 `8080`
-
-
 
 
 ## redis port log
